@@ -1,0 +1,25 @@
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+
+# --- Editors / IDE ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- devdash generated data (also ignored inside .devdash/) ---
+.devdash/metrics.json
+.devdash/graph.json
+.devdash/devdash-data.js
